@@ -1,6 +1,6 @@
 {
   "name": "whippersnapper",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "A React component library, a liar and a thief, immortal in kind, nothing if not futile and ephemeral in effect, an upstart.",
   "main": "index.js",
   "repository": {
@@ -8,7 +8,8 @@
     "url": "https://github.com/BillyZac/whippersnapper.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/lib/react -d build"
   },
   "keywords": [
     "react",
@@ -18,5 +19,8 @@
     "name": "Z Smith",
     "email": "billyzacsmith@gmail.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+  }
 }
