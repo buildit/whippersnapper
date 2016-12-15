@@ -11,13 +11,13 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Button = function Button(_ref) {
-  var label = _ref.label;
-  var cssClasses = _ref.cssClasses;
-  var onClick = _ref.onClick;
-  var _ref$disabled = _ref.disabled;
-  var disabled = _ref$disabled === undefined ? false : _ref$disabled;
-  var _ref$id = _ref.id;
-  var id = _ref$id === undefined ? undefined : _ref$id;
+  var label = _ref.label,
+      cssClasses = _ref.cssClasses,
+      onClick = _ref.onClick,
+      _ref$disabled = _ref.disabled,
+      disabled = _ref$disabled === undefined ? false : _ref$disabled,
+      _ref$id = _ref.id,
+      id = _ref$id === undefined ? undefined : _ref$id;
   return _react2.default.createElement(
     'button',
     {

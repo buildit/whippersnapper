@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import Button from '../build/Button.js';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';

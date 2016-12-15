@@ -11,11 +11,11 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Header = function Header(_ref) {
-  var _ref$logotype = _ref.logotype;
-  var logotype = _ref$logotype === undefined ? '' : _ref$logotype;
-  var _ref$pageName = _ref.pageName;
-  var pageName = _ref$pageName === undefined ? '' : _ref$pageName;
-  var onLogoClick = _ref.onLogoClick;
+  var _ref$logotype = _ref.logotype,
+      logotype = _ref$logotype === undefined ? '' : _ref$logotype,
+      _ref$pageName = _ref.pageName,
+      pageName = _ref$pageName === undefined ? '' : _ref$pageName,
+      onLogoClick = _ref.onLogoClick;
   return _react2.default.createElement(
     'div',
     null,
