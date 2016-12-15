@@ -1,6 +1,7 @@
 _Fruits fail, and love dies, and time ranges; and only the whippersnapper (that fool of Time) endureth for ever._
 
 # Whippersnapper
+![Badge](https://travis-ci.org/BillyZac/whippersnapper.svg?branch=master)
 
 A little React component library.
 
