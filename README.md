@@ -29,25 +29,3 @@ class Thing extends React.Component {
 
 ReactDOM.render(<Thing />, document.getElementById('app'))
 ```
-
-## Travis and deployment
-I'm using Travis to make sure that changes to Whippersnapper are not published to npm without being validated by the tests.
-
-Do some work. Commit it:
-```
-git add .
-git commit -m "Fix bug"
-```
-
-If this work is worthy of a version bump, [bump it](https://docs.npmjs.com/cli/version):
-```
-npm version patch -m "Fix bug"
-```
-
-Push it to the remote repo. Git tags aren't pushed by default. The `--tags` flag [makes sure they're sent along with the commit](https://git-scm.com/book/en/v2/Git-Basics-Tagging#Sharing-Tags). In turn, this makes the version tag visible to Travis, so Travis knows to run the `deploy` step.
-
-```
-git push origin --tags
-```
-
-Travis will then run the tests. If the tests pass, Travis will publish to the [npmjs registry](https://www.npmjs.com/package/whippersnapper).
